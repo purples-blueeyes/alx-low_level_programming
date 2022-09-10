@@ -3,7 +3,7 @@
 /**
  * main - program that prints the alphabet in lowercase, followed by a new line
  * You can only use the putchar
- *  Return: 0
+ * Return: 0
  */
 
 int main(void)
@@ -11,7 +11,6 @@ int main(void)
 	int lw = 'a';
 	while (lw <= 'z')
 	{
-
 		if (lw == 'e' || lw == 'q')
 		{
 			lw += 1;
@@ -22,10 +21,6 @@ int main(void)
 			lw += 1;
 		}
 	}
-	putchar(lw);
-	lw += 1;
-}
-}
-putchar('\n');
-return (0);
+	putchar('\n');
+	return (0);
 }
