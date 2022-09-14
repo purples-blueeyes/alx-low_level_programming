@@ -1,4 +1,4 @@
-#iclude "main.h"
+#include "main.h"
 /**
  * _isalpha - function to check if c is a letter, either lowercase or uppercase
  * @c: is the int that will be used for the argument of the function
