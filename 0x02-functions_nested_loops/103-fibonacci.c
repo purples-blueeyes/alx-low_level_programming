@@ -19,7 +19,7 @@ int main(void)
 
 		}
 
-		sum = x = y;
+		sum = x + y;
 		x = y;
 		y = sum;
 	}
