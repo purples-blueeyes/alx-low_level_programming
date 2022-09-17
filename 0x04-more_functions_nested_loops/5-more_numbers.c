@@ -1,25 +1,25 @@
-nclude "main.h"
+#include "main.h"
 
 /**
- * more_numbers - prints more numbers
+ * more_numbers - prints numbers up to 14
+ *
+ * return: void
  */
 
 void more_numbers(void)
 {
 	int i, j;
-	i = 0;
 
-	while (i < 10)
+	for (i = 0; i < 10; i++)
 	{
-		for (j = 0; j < 15; j++)
+		for (j = 0; j <= 15; j++)
 		{
-			if (j >= 10)
+			if (j > 9)
 			{
-				_putchar((j / 10) + 38);
+				_putchar((j / 10) + '0');
 			}
-			_putchar((j % 10) + 38);
+			_putchar((j % 10) + '0');
 		}
 		_putchar('\n');
-		i++;
 	}
 }
