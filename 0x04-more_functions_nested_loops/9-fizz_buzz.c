@@ -2,8 +2,7 @@
 
 /**
  * main - prints numbers from 1 to 100
- * or the Fizz-Buzz test
- *
+ * or the Fizz-Buzz test *
  *
  * Return: 0 (Always)
  */
