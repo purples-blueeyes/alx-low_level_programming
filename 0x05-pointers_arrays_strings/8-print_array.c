@@ -7,7 +7,7 @@
  * @a: an input array
  * @n: also an input array
  *
- * Return: void
+ * Return: Nothing
  */
 
 void print_array(int *a, int n)
@@ -22,5 +22,5 @@ void print_array(int *a, int n)
 			printf(", ");
 		l++;
 	}
-	_putchar('\n');
+	putchar('\n');
 }
