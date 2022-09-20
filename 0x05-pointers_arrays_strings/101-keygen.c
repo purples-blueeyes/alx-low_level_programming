@@ -32,7 +32,7 @@ int main(void)
 			break;
 
 		}
-		l++
+		l++;
 	}
 	return (0);
 }
