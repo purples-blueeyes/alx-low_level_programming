@@ -12,8 +12,7 @@
 
 void print_array(int *a, int n)
 {
-	int l;
-	l = 0;
+	int l = 0;
 
 	while (l < n)
 	{
