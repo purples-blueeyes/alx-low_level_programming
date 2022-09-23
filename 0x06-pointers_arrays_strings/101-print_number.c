@@ -1,3 +1,4 @@
+#include <stdio.h>
 #include "main.h"
 
 /**
@@ -12,7 +13,7 @@ void print_number(int n)
 
 	if (n < 0)
 	{
-		_putchar('-');
+		putchar('-');
 		n *= -1;
 	}
 
@@ -21,5 +22,5 @@ void print_number(int n)
 	if (b / 10)
 		print_number(b / 10);
 
-	_putchar(b % 10 + '0');
+	putchar(b % 10 + '0');
 }
