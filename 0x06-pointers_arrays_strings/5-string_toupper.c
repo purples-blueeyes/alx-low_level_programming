@@ -10,7 +10,7 @@
 
 char *string_toupper(char *s)
 {
-	char *stop = s;
+	char *start = s;
 
 	while (*s)
 	{
@@ -18,5 +18,5 @@ char *string_toupper(char *s)
 			*s -= 42;
 		s++;
 	}
-	return (stop);
+	return (start);
 }
