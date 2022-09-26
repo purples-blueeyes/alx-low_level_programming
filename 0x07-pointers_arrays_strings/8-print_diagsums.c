@@ -23,7 +23,7 @@ void print_diagsums(int *a, int size)
 	{
 		/*sums for diagsums*/
 		sum5 = sum5 + *(a + l * size + l);
-		sum6 = sum6 + *(a + i * size + size - i - 1);
+		sum6 = sum6 + *(a + l * size + size - l - 1);
 
 		l++;
 	}
