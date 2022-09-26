@@ -11,7 +11,7 @@
 
 char *_memcpy(char *dest, char *src, unsigned int n)
 {
-	unsigned int l = 0;
+	unsigned short int l = 0;
 
 	/*Declaring for*/
 	for (; l < n; l++)
