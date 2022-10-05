@@ -12,6 +12,7 @@
 int main(int argc, char *argv[])
 {
 	int l;
+
 	l = 0;
 
 	while (l < argc)
