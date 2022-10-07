@@ -13,16 +13,16 @@
 
 int *array_range(int min, int max)
 {
-	int *p, l = 0, t = sec;
+	int *p, l = 0, t = min;
 
 	if (min > max)
 		return (0);
-	p = malloc((max - sec + 1) * sizeof(int));
+	p = malloc((max - min + 1) * sizeof(int));
 
 	if (!p)
 		return (0);
 
-	while (l <= max - sec)
+	while (l <= max - min)
 		p[l++] = t++;
 
 	return (p);
