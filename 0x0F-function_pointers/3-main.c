@@ -13,7 +13,7 @@
 int main(int argc, char *argv[])
 {
 	int a = 0, b = 0, res = 0;
-	char k;
+	char s;
 
 	if (argc != 4)
 	{
@@ -27,7 +27,7 @@ int main(int argc, char *argv[])
 		exit(99);
 	}
 	k = argv[2][0];
-	if (k != '+' && k != '-' && k != '/' && k != '*' && k != '%')
+	if (s != '+' && s != '-' && s != '/' && s != '*' && s != '%')
 	{
 		printf("Error\n");
 		exit(99);
