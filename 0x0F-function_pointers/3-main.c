@@ -18,7 +18,7 @@ int main(int argc, char *argv[])
 	if (argc != 4)
 	{
 		printf("Error\n");
-		exit (98);
+		exit(98);
 	}
 
 	if (argv[2][1] != '\0')
@@ -27,10 +27,10 @@ int main(int argc, char *argv[])
 		exit(99);
 	}
 	k = argv[2][0];
-	if (k != '+' && s != '-' && s != '/' && s != '*' && s != '%')
+	if (k != '+' && k != '-' && k != '/' && k != '*' && k != '%')
 	{
 		printf("Error\n");
-		exit (99);
+		exit(99);
 	}
 	a = atoi(argv[1]);
 	b = atoi(argv[3]);
