@@ -1,12 +1,10 @@
-#include <string.h>
 #include "3-calc.h"
-#include <stdlib.h>
-#include <stdio.h>
 
 /**
  * get_op_func - function pointer that selects the correct function to perform
  * the operation asked by the user
  * @s: the operator given by the user
+ *
  * Return: a pointer to the function op_add
  */
 
